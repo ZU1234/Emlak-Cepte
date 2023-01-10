@@ -1,0 +1,20 @@
+server:
+  port: 9092
+spring:
+  application:
+    name: emlakcepte-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: emlakkcepte-service
+          uri: lb://emlakcepte-service
+          predicates:
+            - Path=/users/**,/realtyes/**
+        - id: emlakcepte-banner-service
+          uri: lb://emlakcepte-banner-service
+          predicates:
+            - Path=/banners/**
+        - id: emlakcepte-payment-service
+          uri: lb://emlakcepte-payment-service
+          predicates:
+            - Path=/payments/**

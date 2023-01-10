@@ -1,0 +1,382 @@
+{
+	"info": {
+		"_postman_id": "4e850736-9a75-4c6d-9efe-48e8ed54717d",
+		"name": "Odev-4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24265031"
+	},
+	"item": [
+		{
+			"name": "localhost:9092/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n{\r\n    \"name\": \"zeynep\",\r\n    \"mail\": \"zeynep@gmail.com\",\r\n    \"password\": \"12345asdf6\",\r\n    \"type\":\"CORPARETE\"\r\n      \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8888/users",
+					"host": [
+						"localhost"
+					],
+					"port": "8888",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"cem\",\r\n    \"mail\": \"cemdirman@gmail.com\",\r\n    \"password\": \"123456\",\r\n    \"type\":\"INDIVIDUAL\"\r\n      \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/users",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"pelin\",\r\n    \"mail\": \"mimar.pelin@gmail.com\",\r\n    \"password\": \"Pelin123\",\r\n    \"type\":\"INDIVIDUAL\"\r\n      \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/users",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/users",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"sami\",\r\n    \"mail\": \"sami@gmail.com\",\r\n    \"password\": \"abc123\",\r\n    \"type\":\"INDIVIDUAL\"\r\n      \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/users",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/realtyes",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"no\":1234,\r\n    \"title\": \"Satılık VİLLA\",\r\n    \"province\":\"Ankara\",\r\n    \"userId\":1\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/realtyes",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"realtyes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/realtyes",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"no\": 1234,\r\n        \"title\": \"ZEKERİYAKÖY ' de 1200 M2 Satılık VİLLA\",\r\n        \"province\": \"Ankara\",\r\n        \"userId\": 1\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/realtyes",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"realtyes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/realtyes/5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/realtyes/5",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"realtyes",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/realtyes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"no\":125,\r\n    \"title\": \"ŞİLE MERKEZE YÜRÜME MESAFESİNDE BOĞAZİÇİ VİLLARINDA VATANDAŞLIĞA UYGUN\",\r\n    \"publishedDate\":null, \r\n    \"userId\":1,\r\n    \r\n    \"status\":\"ACTIVE\",\r\n     \"category\" :\"RENT\",\r\n     \"type\" :\"DETACHED\",\r\n      \"typeOfStructure\":\"HOUSE\",\r\n      \"price\": 72000000,\r\n      \"county\":\"Sile\",\r\n      \"province\":\"İstanbul\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/realtyes",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"realtyes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/realtyes/status",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    \"ACTIVE\"\r\n   \r\n\r\n   \r\n    \r\n  \r\n  \r\n    \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/realtyes/status",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"realtyes",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/realtyes/status",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":1,\r\n    \"status\":\"IN_REVIEW\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/realtyes/status",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"realtyes",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/realtyes/status",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":8,\r\n    \"status\":\"PASSIVE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/realtyes/status",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"realtyes",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8092/payments",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"cardNo\": \"1256 8965 0087 3026\",\r\n        \"cvv\": 332,\r\n        \"userId\": 1,\r\n        \"price\": 1,\r\n        \"piece\":1,\r\n        \"productType\":\"REALTY_CREATE\",\r\n        \"localDateTime\":null\r\n        \r\n        \r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/users/payment",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"users",
+						"payment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:9092/users/product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userId\":1,\r\n    \"productType\":\"REALTY_CREATE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9092/users/product",
+					"host": [
+						"localhost"
+					],
+					"port": "9092",
+					"path": [
+						"users",
+						"product"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
