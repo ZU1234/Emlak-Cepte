@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "f99edd0a-9fc0-48d9-899b-255557954ee9",
+		"name": "bank",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24265031"
+	},
+	"item": [
+		{
+			"name": "localhost:8890/creditcard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"cardNo\": \"1256 8965 0087 3026\",\r\n        \"cvv\": 332,\r\n        \"userId\": 1,\r\n        \"balance\": 100\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8890/creditcards/add",
+					"host": [
+						"localhost"
+					],
+					"port": "8890",
+					"path": [
+						"creditcards",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
