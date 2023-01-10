@@ -29,11 +29,6 @@ tanımlanmalı ve bu işlem asenkron yapılmalı
 
 ### Kullanılan Teknolojiler
 
-<a href="https:// www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.
-com/devicons/devicon/master/icons/java/java-original.svg" alt= "java" width="40" height="40"/> </a>  	&nbsp;&nbsp; 
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>&nbsp;&nbsp; <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> &nbsp;&nbsp;<a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> &nbsp;&nbsp;<a href="https://rabbitmq.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.
-zone/logos/rabbitmq/rabbitmq-icon.svg" alt="spring" width="40" height="40"/> </a></a>
+<a href="https:// www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt= "java" width="40" height="40"/> </a>	&nbsp;&nbsp;<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>&nbsp;&nbsp; <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> &nbsp;&nbsp;<a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> &nbsp;&nbsp; <a href="https://www.rabbitmq.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" width="40" height="40"/> </a></a>
 
 Java 8, Spring Boot, Restfull, Postgre, RabbitMQ, Microservice mimarisi
-
-
